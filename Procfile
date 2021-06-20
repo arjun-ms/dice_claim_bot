@@ -1,1 +1,1 @@
-worker: python visit.py +917591900201
+worker: python visit.py
