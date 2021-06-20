@@ -24,8 +24,8 @@ color_ama(autoreset=True)
 os.system('cls' if os.name == 'nt' else 'clear')
 
 # Get your own values from my.telegram.org
-api_id = os.environ[api_id]
-api_hash = os.environ[api_hash]
+api_id = os.environ['api_id']
+api_hash = os.environ['api_hash']
 
 
 doge = 'freecardano_claimbot'
