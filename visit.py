@@ -59,7 +59,7 @@ async def main():
     #     e = input('Press any key to exit...')
     #     exit(1)
 
-    phone_number = +917591900201
+    phone_number = '+917591900201'
 
     if not os.path.exists("session"):
         os.mkdir("session")
