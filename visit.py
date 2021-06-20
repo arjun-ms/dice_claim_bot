@@ -53,13 +53,13 @@ async def main():
     print(Fore.GREEN + '    -             BY AZZURI             -   \n' + Fore.RESET)
 
     # Check if phone number is not specified
-    if len(sys.argv) < 2:
-        print('Usage: python start.py phone_number')
-        print('-> Input number in international format (example: +639162995600)\n')
-        e = input('Press any key to exit...')
-        exit(1)
+    # if len(sys.argv) < 2:
+    #     print('Usage: python start.py phone_number')
+    #     print('-> Input number in international format (example: +639162995600)\n')
+    #     e = input('Press any key to exit...')
+    #     exit(1)
 
-    phone_number = sys.argv[1]
+    phone_number = +917591900201
 
     if not os.path.exists("session"):
         os.mkdir("session")
